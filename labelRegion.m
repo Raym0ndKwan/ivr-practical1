@@ -1,0 +1,43 @@
+ 
+function [rx,ry,gx,gy,bx,by]=labelRegion(img)
+grayImage=rgb2gray(img);
+thresholdImage=im2bw(grayImage,0.9);
+L=bwlabel(~thresholdImage,8);
+N=max(L(:)); 
+j=1;
+rx=0;
+ry=0;
+gx=0;
+gy=0;
+bx=0;
+by=0;
+for i= 1:N   
+    r=0;
+    g=0;
+    b=0;
+    [x,y]=find(L==i);
+    if(size(x,1)>200)
+        c1(j)=sum(x)/size(x,1);
+        c2(j)=sum(y)/size(y,1);
+        r=sum(img(x,y,1))/size(x,1);
+        g=sum(img(x,y,2))/size(x,1);
+        b=sum(img(x,y,3))/size(x,1);
+        if(r>200)
+        rx=c1(j);
+        ry=c2(j);
+        plot(c2(j),c1(j),'r*');
+        end
+        if(g>200)
+        plot(c2(j),c1(j),'g*');
+        gx=c1(j);
+        gy=c2(j);
+        end
+        if(b>180)
+        plot(c2(j),c1(j),'b*');
+        bx=c1(j);
+        by=c2(j);
+        end
+        j=j+1;
+    end
+end
+end
