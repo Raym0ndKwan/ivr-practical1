@@ -1,6 +1,6 @@
 \documentclass{report}
 \usepackage{titlesec}
-\usepackage {mcode}
+\usepackage {mcode} 					% matlab formatting
 \titleformat{\chapter}
   {\normalfont\LARGE\bfseries}{\thechapter}{1em}{}
 \titlespacing*{\chapter}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
@@ -11,35 +11,33 @@
 \author{
 	Ran Guan\\
 	\and
-	Thea Koutsoukis\\            %   for the title page.
+	Thea Koutsoukis\\            
 }
-\date{4pm March 7, 2013}                           %   Use current date.
+\date{4pm March 7, 2013}                           
 
 \begin{document}                        % End of preamble, start of text.
 \maketitle                              % Print title page.
 \pagenumbering{roman}                   % roman page number for toc
 \setcounter{page}{2}                    % make it start with "ii"
 \tableofcontents         
-\renewcommand{\chaptername}{}               % Print table of contents
+\renewcommand{\chaptername}{}           % Print table of contents
 
-\chapter{Introduction}                % Print a "chapter" heading
+\chapter{Introduction}                	% Print a "chapter" heading
 \pagenumbering{arabic}                  % Start text with arabic 1
 Overview of main ideas used in our approach
  
-
-\chapter{Methods}                % Print a "chapter" heading
-
+\chapter{Methods}                		
 Which methods were used? 
  
-\section{Method 1}                  % Print a "section" heading
+\section{Method 1}                  	% Print a "subsection" heading
 Give a functional outline of how this method was implemented and the structure of the code. Explain how each part of it is meant to work. Where suitable, justify your
 decisions, e.g. why you used one method rather than another, what you tried
 that didn't work as expected
 
-\section{Method 2}                  % Print a "section" heading
+\section{Method 2}                  
 etc.
 
-\chapter{Results}                % Print a "chapter" heading
+\chapter{Results}                
 You should provide some actual data, from repeated trials (with the
 camera or robots in different positions) on how well your algorithm performs,
 as described previously. Show an example of your results for each stage of
@@ -47,11 +45,14 @@ the detection. Well documented failure will get more marks than unsupported
 claims of success (well-documented success would be even better!).
 
 
-\chapter{Discussion}                % Print a "chapter" heading
+\chapter{Discussion}                
 Assess the success of your program with regard to the reported results, and explain any limitations, problems or improvements you would make.
 
 \chapter{Code}
+euclidianDist2D
+\lstinputlisting{/afs/inf.ed.ac.uk/user/s10/s1009894/Desktop/ThirdYear/Semester2/IVR/Assignment1/ivr-practical1/Code/euclidianDist2D.m} % Inserts code from this file
+euclidianDist3D
+\lstinputlisting{/afs/inf.ed.ac.uk/user/s10/s1009894/Desktop/ThirdYear/Semester2/IVR/Assignment1/ivr-practical1/Code/euclidianDist3D.m}
 
-\lstinputlisting{euclidianDist2D.m}.
- 
-\end{document}                          % The required last line
+
+\end{document}                       % The required last line
