@@ -14,7 +14,7 @@ newimage=zeros(size(img));
 [m,n,l]=size(newimage);
         for i=1:m
             for j=1:n
-                if(euclidianDist2D(rx,ry,i,j)<rr)
+                if(euclideanDist2D(rx,ry,i,j)<rr)
                     newimage(i,j,1)=img(i,j,1);
                     newimage(i,j,2)=img(i,j,2);
                     newimage(i,j,3)=img(i,j,3);
@@ -23,7 +23,7 @@ newimage=zeros(size(img));
                         rdy=rdy+j;
                         rsum=rsum+1;
                     end
-                elseif(euclidianDist2D(bx,by,i,j)<br)
+                elseif(euclideanDist2D(bx,by,i,j)<br)
                     newimage(i,j,1)=img(i,j,1);
                     newimage(i,j,2)=img(i,j,2);
                     newimage(i,j,3)=img(i,j,3);
@@ -32,7 +32,7 @@ newimage=zeros(size(img));
                         bdy=bdy+j;
                         bsum=bsum+1;
                     end
-                elseif(euclidianDist2D(gx,gy,i,j)<gr*1.8)
+                elseif(euclideanDist2D(gx,gy,i,j)<gr*1.8)
                     newimage(i,j,1)=img(i,j,1);
                     newimage(i,j,2)=img(i,j,2);
                     newimage(i,j,3)=img(i,j,3);
