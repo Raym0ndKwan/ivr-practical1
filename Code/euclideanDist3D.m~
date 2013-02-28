@@ -1,0 +1,17 @@
+% Finds the normalised distance between coloured points (r1,g1,b1) and (r2,g2,b2).
+% Euclidean distance is not suitable, as each colour has a different
+% behavior. The values taken by the red pixel are
+% every feature may not have similar behaviors. For example if the values taken by the first feature over the data images
+% are very concentrated around 0, and $ \theta_2$ takes uniform values on an interval, then a big difference between $ \theta_1^{(i)}$
+% and $ \theta_1^{(q)}$ is much more significant than the same big difference between $ \theta_2^{(i)}$ and $ \theta_2^{(q)}$. 
+% Euclidean distance does not take into account this possible asymmetry. 
+
+function distance = euclideanDist3D(r1,g1,b1,r2,g2,b2)
+
+a = 2.2;
+b = 1.00;
+c = 0.75;
+
+dist=sqrt(((x1-x2)/a)^2 + ((y1-y2)/b)^2 + ((z1-z2)/c)^2);
+
+end
