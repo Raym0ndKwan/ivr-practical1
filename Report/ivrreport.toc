@@ -1,7 +1,13 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {chapter}{\numberline {2}Methods}{2}
-\contentsline {section}{\numberline {2.1}Method 1}{2}
-\contentsline {section}{\numberline {2.2}Method 2}{2}
-\contentsline {chapter}{\numberline {3}Results}{3}
-\contentsline {chapter}{\numberline {4}Discussion}{4}
-\contentsline {chapter}{\numberline {5}Code}{5}
+\contentsline {section}{\numberline {2.1}Smoothing}{2}
+\contentsline {section}{\numberline {2.2}Normalisation}{2}
+\contentsline {section}{\numberline {2.3}Robot Detection}{3}
+\contentsline {section}{\numberline {2.4}Direction}{3}
+\contentsline {chapter}{\numberline {3}Results}{4}
+\contentsline {section}{\numberline {3.1}Dataset 1}{4}
+\contentsline {section}{\numberline {3.2}Dataset 2}{5}
+\contentsline {section}{\numberline {3.3}Own Data}{5}
+\contentsline {chapter}{\numberline {4}Discussion}{7}
+\contentsline {chapter}{\numberline {5}Code}{8}
+\contentsline {chapter}{\numberline {6}Note on Mark Distribution}{15}

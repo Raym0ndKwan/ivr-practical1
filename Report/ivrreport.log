@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.9.13)  28 FEB 2013 13:40
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.9.12)  7 MAR 2013 16:08
 entering extended mode
  %&-line parsing enabled.
 **ivrreport.tex
@@ -164,50 +164,72 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
-)) (./ivrreport.aux)
+))
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+)
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+) (./ivrreport.aux)
 \openout1 = `ivrreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
 
 (/usr/share/texmf/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 20.
 
 (/usr/share/texmf/tex/context/base/supp-pdf.tex
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count98
-\scratchdimen=\dimen112
+\scratchdimen=\dimen114
 \scratchbox=\box29
 \nofMPsegments=\count99
 \nofMParguments=\count100
 \MPscratchCnt=\count101
-\MPscratchDim=\dimen113
+\MPscratchDim=\dimen115
 \MPnumerator=\count102
 \everyMPtoPDFconversion=\toks16
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 19.
+(Font)              <12> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 19.
+(Font)              <8> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 19.
+(Font)              <6> on input line 21.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./ivrreport.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./ivrreport.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
 \tf@toc=\write3
 \openout3 = `ivrreport.toc'.
 
@@ -220,51 +242,243 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
  2.
-[2
+<radius5.jpg, id=15, 805.0075pt x 564.1075pt>
+File: radius5.jpg Graphic file (type jpg)
+ <use radius5.jpg>
+<radius10.jpg, id=16, 805.0075pt x 564.1075pt>
+File: radius10.jpg Graphic file (type jpg)
+ <use radius10.jpg> [2
 
-]
+ <./radius5.jpg> <./radius10.jpg>]
+<regionofinterest.png, id=20, 207.02344pt x 155.07938pt>
+File: regionofinterest.png Graphic file (type png)
+
+<use regionofinterest.png> <direction.png, id=21, 204.765pt x 152.82094pt>
+File: direction.png Graphic file (type png)
+
+<use direction.png> [3 <./regionofinterest.png (PNG copy)> <./direction.png (PN
+G copy)>]
  3.
-[3
+<example.jpg, id=25, 1284.8pt x 884.30376pt>
+File: example.jpg Graphic file (type jpg)
+ <use example.jpg>
+Overfull \hbox (40.44298pt too wide) in paragraph at lines 61--62
+[]  
+ []
 
-]
- 4.
+File: example.jpg Graphic file (type jpg)
+<use example.jpg>
+Overfull \hbox (40.44298pt too wide) in paragraph at lines 64--65
+[]  
+ []
+
 [4
+
+ <./example.jpg>] <data3.png, id=29, 408.02437pt x 283.81032pt>
+File: data3.png Graphic file (type png)
+
+<use data3.png> <datasetred.png, id=30, 423.83344pt x 286.82156pt>
+File: datasetred.png Graphic file (type png)
+
+<use datasetred.png> <datasetgreen.png, id=31, 380.17032pt x 277.78781pt>
+File: datasetgreen.png Graphic file (type png)
+
+<use datasetgreen.png> [5 <./data3.png (PNG copy)> <./datasetred.png (PNG copy)
+> <./datasetgreen.png (PNG copy)>] [6]
+ 4.
+[7
 
 ]
  5.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 60.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 80.
 (/usr/share/texmf/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 (/afs/inf.ed.ac.uk/user/s10/s1009894/Desktop/ThirdYear/Semester2/IVR/Assignment
-1/ivr-practical1/Code/colorSimilarity.m
-Overfull \hbox (48.604pt too wide) in paragraph at lines 1--2
+1/ivr-practical1/Code/euclideanDist2D.m)
+(/afs/inf.ed.ac.uk/user/s10/s1009894/Desktop/ThirdYear/Semester2/IVR/Assignment
+1/ivr-practical1/Code/colorSimilarity.m)
+(/afs/inf.ed.ac.uk/user/s10/s1009894/Desktop/ThirdYear/Semester2/IVR/Assignment
+1/ivr-practical1/Code/labelRegion.m
+Overfull \hbox (0.60352pt too wide) in paragraph at lines 1--2
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
+[][][][][][][][][][][][][][][][][][][] 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 12.
-) [5
+
+Overfull \hbox (19.80371pt too wide) in paragraph at lines 7--8
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][] 
+ []
+
+[8
+
+]
+LaTeX Font Info:    Try loading font information for OML+pcr on input line 26.
+ (/usr/share/texmf/tex/latex/psnfss/omlpcr.fd
+File: omlpcr.fd 
+)
+LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 26.
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 32.
+
+(/usr/share/texmf/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+))
+(/afs/inf.ed.ac.uk/user/s10/s1009894/Desktop/ThirdYear/Semester2/IVR/Assignment
+1/ivr-practical1/Code/normaliseColor.m
+Overfull \hbox (10.20361pt too wide) in paragraph at lines 9--10
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (154.20508pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (5.40356pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (43.80396pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (43.80396pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (43.80396pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(/afs/inf.ed.ac.uk/user/s10/s1009894/Desktop/ThirdYear/Semester2/IVR/Assignment
+1/ivr-practical1/Code/meanBG.m [9])
+(/afs/inf.ed.ac.uk/user/s10/s1009894/Desktop/ThirdYear/Semester2/IVR/Assignment
+1/ivr-practical1/Code/diffFromBG.m
+Overfull \hbox (29.40381pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (34.20386pt too wide) in paragraph at lines 19--20
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(/afs/inf.ed.ac.uk/user/s10/s1009894/Desktop/ThirdYear/Semester2/IVR/Assignment
+1/ivr-practical1/Code/segmentFromRadius.m
+Overfull \hbox (111.00464pt too wide) in paragraph at lines 2--4
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][] 
+ []
+
+[10]) [11]
+(/afs/inf.ed.ac.uk/user/s10/s1009894/Desktop/ThirdYear/Semester2/IVR/Assignment
+1/ivr-practical1/Code/detectSingleImage.m
+Overfull \hbox (5.40356pt too wide) in paragraph at lines 1--2
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (96.60449pt too wide) in paragraph at lines 37--39
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+
+Overfull \hbox (144.60498pt too wide) in paragraph at lines 50--51
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+
+Overfull \hbox (144.60498pt too wide) in paragraph at lines 52--53
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+
+Overfull \hbox (144.60498pt too wide) in paragraph at lines 54--56
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+[12])
+(/afs/inf.ed.ac.uk/user/s10/s1009894/Desktop/ThirdYear/Semester2/IVR/Assignment
+1/ivr-practical1/Code/trackAllImages.m
+Overfull \hbox (5.40356pt too wide) in paragraph at lines 1--2
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][] 
+ []
+
+
+Overfull \hbox (139.80493pt too wide) in paragraph at lines 5--7
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (255.0061pt too wide) in paragraph at lines 20--21
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (29.40381pt too wide) in paragraph at lines 28--29
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (29.40381pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (29.40381pt too wide) in paragraph at lines 46--47
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[13]) [14]
+ 6.
+[15
 
 ] (./ivrreport.aux) ) 
 Here is how much of TeX's memory you used:
- 3206 strings out of 256216
- 43014 string characters out of 1917072
- 100720 words of memory out of 1500000
- 6501 multiletter control sequences out of 10000+200000
- 8318 words of font info for 30 fonts, out of 1200000 for 2000
+ 3562 strings out of 256216
+ 49284 string characters out of 1917072
+ 122075 words of memory out of 1500000
+ 6804 multiletter control sequences out of 10000+200000
+ 8919 words of font info for 32 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 33i,6n,42p,262b,988s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 33i,6n,42p,1043b,1476s stack positions out of 5000i,500n,6000p,200000b,15000s
 {/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/
-texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/c
-m/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texm
-f/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/urw/courier/uc
-rr8a.pfb>
-Output written on ivrreport.pdf (7 pages, 47411 bytes).
+texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/bluesky/c
+m/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share/tex
+mf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cm
+r12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fo
+nts/type1/urw/courier/ucrr8a.pfb>
+Output written on ivrreport.pdf (17 pages, 493560 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

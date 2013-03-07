@@ -1,36 +1,30 @@
-function [newimage,bgimage]=diffFromBG(img)
+% Takes an image and returns the background
 
-newimage=zeros(size(img));
-bgimage=zeros(size(img));
+function [foregroundImage,backgroundImage]=diffFromBG(img)
+
+foregroundImage=zeros(size(img));
+backgroundImage=zeros(size(img));
 [r,g,b]=meanBG(img);
-[m,n,l]=size(newimage);
+[m,n,l]=size(foregroundImage);
         for i=1:m
             for j=1:n
-                if(colorSimilarity(r,g,b,img(i,j,1),img(i,j,2),img(i,j,3))<55)
-                %if((r-newimage(i,j,1)^2)<750&&(g-newimage(i,j,2)^2)<600&&(b-newimage(i,j,3)^2)<675)
-                    newimage(i,j,1)=255;
-                    newimage(i,j,2)=255;
-                    newimage(i,j,3)=255;
-                    bgimage(i,j,1)=round(r);
-                    bgimage(i,j,2)=round(g);
-                    bgimage(i,j,3)=round(b);
+                if(colorSimilarity(r,g,b,img(i,j,1),img(i,j,2),img(i,j,3))<45)
+                    foregroundImage(i,j,1)=255;
+                    foregroundImage(i,j,2)=255;
+                    foregroundImage(i,j,3)=255;
+                    backgroundImage(i,j,1)=round(r);
+                    backgroundImage(i,j,2)=round(g);
+                    backgroundImage(i,j,3)=round(b);
                 end
-                if(colorSimilarity(r,g,b,img(i,j,1),img(i,j,2),img(i,j,3))>=55)
-                %if((r-newimage(i,j,1)^2)<750&&(g-newimage(i,j,2)^2)<600&&(b-newimage(i,j,3)^2)<675)
-                    newimage(i,j,1)=img(i,j,1);
-                    newimage(i,j,2)=img(i,j,2);
-                    newimage(i,j,3)=img(i,j,3);
-                    bgimage(i,j,1)=img(i,j,1);
-                    bgimage(i,j,2)=img(i,j,2);
-                    bgimage(i,j,3)=img(i,j,3);
+                if(colorSimilarity(r,g,b,img(i,j,1),img(i,j,2),img(i,j,3))>=45)
+                    foregroundImage(i,j,1)=img(i,j,1);
+                    foregroundImage(i,j,2)=img(i,j,2);
+                    foregroundImage(i,j,3)=img(i,j,3);
+                    backgroundImage(i,j,1)=img(i,j,1);
+                    backgroundImage(i,j,2)=img(i,j,2);
+                    backgroundImage(i,j,3)=img(i,j,3);
                 end
             end
         end
-% subplot(1,2,1);
-% imshow(uint8(img));
-% title('Original image')
-% subplot(1,2,2);
-% imshow(uint8(newimage));
-% title('Bg covered by black')
 end
 
